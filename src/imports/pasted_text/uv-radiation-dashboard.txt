@@ -1,0 +1,331 @@
+Diseña un maquetado web profesional, editable y coherente en Figma para un sistema académico llamado:
+
+“SISTEMA INTELIGENTE DE MODELADO GEOESPACIAL Y ANÁLISIS PREDICTIVO DE LA EXPOSICIÓN A RADIACIÓN ULTRAVIOLETA”
+
+Contexto del proyecto:
+Es una plataforma web orientada al municipio de La Paz, Bolivia, enfocada en analizar, visualizar y predecir niveles de radiación ultravioleta (UV) utilizando datos meteorológicos, satelitales y geoespaciales. El sistema integra información de fuentes como NASA POWER, SENAMHI y datos topográficos/DEM. Además, utiliza procesamiento geoespacial, un modelo predictivo basado en machine learning y un módulo de inteligencia artificial para generar recomendaciones preventivas.
+
+Objetivo del maquetado:
+Crear una interfaz moderna, técnica, clara y académica que permita:
+1. Consultar niveles de radiación UV por zona.
+2. Visualizar mapas interactivos y mapas de calor.
+3. Analizar información histórica por fechas y ubicaciones.
+4. Generar histogramas y mapas de tendencia.
+5. Mostrar recomendaciones preventivas generadas por IA.
+6. Gestionar validación y sincronización de datos desde un panel administrativo.
+7. Presentar el sistema de manera adecuada para un informe de taller de grado y para un posible prototipo funcional.
+
+Importante:
+- No copiar literalmente ni replicar branding oficial de otras plataformas.
+- Inspirarse funcionalmente en portales de monitoreo UV, visualizadores cartográficos, dashboards científicos y sistemas de análisis geoespacial.
+- El resultado debe ser completamente editable en Figma.
+- Generar diseño en formato desktop first.
+- Mantener consistencia visual entre todas las pantallas.
+- Usar componentes reutilizables, auto layout y estructura ordenada.
+- Priorizar legibilidad, jerarquía visual, limpieza y claridad de navegación.
+
+Inspiración funcional:
+- Sistemas de monitoreo y pronóstico UV.
+- Paneles con mapa, filtros, tarjetas de riesgo y gráficas.
+- Interfaces científicas y geoespaciales.
+- Dashboards técnicos para análisis ambiental.
+- Flujo visual tipo data platform + GIS dashboard + AI assistant.
+
+Estilo visual:
+- Profesional, moderno, limpio, tecnológico y académico.
+- Sensación de plataforma científica e institucional.
+- Diseño elegante, no infantil.
+- Evitar saturación visual.
+- Usar mucho espacio en blanco, bloques bien definidos y tarjetas informativas.
+
+Paleta sugerida:
+- Azul oscuro / azul petróleo como color principal.
+- Celeste / azul claro para elementos informativos.
+- Blanco o gris muy claro para fondos secundarios.
+- Amarillo, naranja, rojo y morado para representar los niveles de radiación UV.
+- Verde para estados correctos o datos validados.
+- Gris para elementos secundarios y estados inactivos.
+
+Escala UV visual:
+Usar una visualización clara de categorías de radiación UV:
+- Bajo
+- Moderado
+- Alto
+- Muy alto
+- Extremo
+
+Representarlas con badges, barras, tarjetas o leyenda cromática.
+Usar mensajes preventivos visibles y comprensibles para el usuario.
+
+Arquitectura de roles:
+El sistema debe contemplar tres perfiles principales:
+1. Usuario ciudadano
+2. Investigador
+3. Administrador
+
+Diseñar la navegación considerando estos tres perfiles.
+
+Estructura de navegación:
+Crear una barra lateral o navegación superior con opciones claras según el rol:
+- Inicio
+- Mapa UV
+- Consulta por zona
+- Recomendaciones
+- Análisis histórico
+- Histograma UV
+- Mapa de tendencia
+- Reportes
+- Administración de datos
+- Validación
+- Configuración / Perfil
+
+Pantallas a generar:
+
+1. Landing Page / Página de inicio institucional
+Objetivo:
+Presentar el sistema de forma clara, seria y atractiva.
+Contenido:
+- Nombre completo del sistema.
+- Subtítulo corto explicando el propósito.
+- Descripción breve del sistema y su valor.
+- Hero section con mapa estilizado de La Paz o visual geoespacial.
+- Botones principales:
+  “Consultar radiación UV”
+  “Ingresar al sistema”
+  “Ver funcionalidades”
+- Sección explicando:
+  a) análisis geoespacial
+  b) predicción UV
+  c) recomendaciones IA
+- Bloque con beneficios o características principales.
+- Footer institucional académico.
+
+2. Pantalla de login / acceso
+Contenido:
+- Campo correo electrónico
+- Campo contraseña
+- Selector o indicación de rol
+- Botón “Ingresar”
+- Opción “Recuperar contraseña”
+- Diseño limpio, profesional y consistente con la landing.
+
+3. Dashboard principal del usuario ciudadano
+Objetivo:
+Mostrar rápidamente el estado UV actual y accesos rápidos.
+Contenido:
+- Tarjeta principal con índice UV actual.
+- Categoría de riesgo actual.
+- Recomendación destacada generada por IA.
+- Resumen del estado de exposición del día.
+- Mini tarjetas con:
+  temperatura,
+  nubosidad,
+  radiación solar,
+  altitud de la zona consultada.
+- Botón “Ver mapa UV”.
+- Botón “Consultar otra zona”.
+- Sección de consejos preventivos.
+- Pequeño gráfico de evolución del día.
+
+4. Pantalla de mapa UV interactivo
+Objetivo:
+Ser la vista central del sistema.
+Contenido:
+- Gran mapa principal del municipio de La Paz.
+- Capa de calor UV.
+- Filtros laterales o superiores:
+  zona,
+  fecha,
+  hora,
+  nivel de riesgo,
+  tipo de visualización.
+- Panel lateral con:
+  índice UV estimado,
+  categoría,
+  altitud,
+  pendiente,
+  nubosidad,
+  radiación solar,
+  recomendación IA.
+- Leyenda del mapa con escala de colores.
+- Botones de acercar/alejar, centrar, exportar vista.
+- Diseño tipo GIS dashboard.
+- Integrar el concepto de mapa base estilo OpenStreetMap como parte visual del frontend.
+
+5. Pantalla de detalle por zona
+Objetivo:
+Profundizar en la consulta de una zona específica.
+Contenido:
+- Nombre de la zona.
+- Índice UV estimado.
+- Riesgo UV.
+- Variables usadas en la estimación.
+- Serie temporal simple del comportamiento UV.
+- Mapa pequeño de localización.
+- Recomendaciones preventivas personalizadas.
+- Indicador de confiabilidad o trazabilidad de datos.
+
+6. Pantalla de recomendaciones IA
+Objetivo:
+Mostrar recomendaciones comprensibles para el usuario.
+Contenido:
+- Tarjeta principal con recomendación generada.
+- Nivel de riesgo interpretado.
+- Acciones sugeridas:
+  usar bloqueador,
+  evitar exposición,
+  usar sombrero,
+  buscar sombra,
+  hidratarse.
+- Recomendaciones segmentadas por nivel UV.
+- Posible bloque “Qué significa este nivel UV”.
+- Diseño amable pero técnico.
+
+7. Panel de investigación
+Objetivo:
+Ofrecer herramientas de análisis más avanzadas.
+Contenido:
+- Filtros por zona, rango de fechas, categoría de riesgo y fuente de datos.
+- Tabla de registros históricos.
+- Accesos directos a:
+  mapa de tendencia,
+  histograma UV,
+  reporte técnico.
+- Tarjetas resumen:
+  promedio UV,
+  máximo UV,
+  mínimo UV,
+  cantidad de registros.
+- Interfaz más analítica.
+
+8. Pantalla de mapa de tendencia
+Objetivo:
+Visualizar evolución espacial y temporal.
+Contenido:
+- Mapa con colores por tendencia o variación UV.
+- Selector temporal.
+- Comparación entre zonas.
+- Gráfico de línea o serie temporal complementaria.
+- Panel explicativo con interpretación de tendencia.
+- Opción de exportar imagen o reporte.
+
+9. Pantalla de histograma UV
+Objetivo:
+Mostrar la distribución de la exposición UV.
+Contenido:
+- Histograma por rangos o categorías UV.
+- Filtros por zona, fecha y categoría.
+- Tabla resumen con frecuencias y porcentajes.
+- Indicador de interpretación estadística.
+- Botón “Generar reporte”.
+- Diseño técnico y claro.
+
+10. Pantalla de reporte técnico
+Objetivo:
+Mostrar un resumen formal del análisis.
+Contenido:
+- Encabezado del reporte.
+- Resumen ejecutivo.
+- Captura o bloque del mapa.
+- Gráficos principales.
+- Métricas del modelo:
+  precisión,
+  R²,
+  RMSE,
+  MAE.
+- Recomendaciones o hallazgos.
+- Botones:
+  exportar PDF,
+  descargar,
+  imprimir.
+
+11. Panel administrativo
+Objetivo:
+Gestionar fuentes y estado del sistema.
+Contenido:
+- Estado de fuentes:
+  NASA POWER,
+  SENAMHI,
+  DEM.
+- Estado de sincronización.
+- Dataset consolidado disponible.
+- Última actualización.
+- Botones:
+  sincronizar datos,
+  revisar validación,
+  actualizar dataset.
+- Tabla de incidencias o registros observados.
+- Dashboard administrativo más sobrio.
+
+12. Pantalla de validación de datos
+Objetivo:
+Permitir revisión técnica de datos.
+Contenido:
+- Tarjetas:
+  registros válidos,
+  observados,
+  descartados.
+- Tabla con errores detectados.
+- Tipos de observación:
+  coordenadas inválidas,
+  rango inconsistente,
+  fecha incorrecta,
+  dato nulo.
+- Botones:
+  aprobar actualización,
+  corregir registros,
+  descartar,
+  volver a sincronizar.
+- Indicador visual de calidad de datos.
+
+Componentes UI que deben existir:
+- Navbar o sidebar
+- Cards
+- Tablas
+- Tabs
+- Filtros
+- Selects
+- Inputs
+- Modales
+- Tooltips
+- Gráficos
+- Badges de estado
+- Leyendas de mapas
+- Breadcrumbs
+- Paginación
+- Botones primarios, secundarios y de acción crítica
+
+Requisitos UX:
+- Navegación clara por rol.
+- Interfaz intuitiva.
+- Jerarquía visual marcada.
+- Diseño accesible.
+- Buen contraste.
+- Espacios bien distribuidos.
+- Información técnica entendible.
+- Evitar sobrecargar la pantalla con demasiados datos simultáneamente.
+
+Requisitos visuales:
+- Usar mock data realista.
+- Incluir textos de ejemplo creíbles.
+- Mantener consistencia entre todas las vistas.
+- Mostrar estados:
+  sin datos,
+  cargando,
+  error,
+  éxito,
+  actualización completada.
+- Diseñar pantallas listas para ser presentadas en un documento académico.
+
+Requisitos técnicos de Figma:
+- Crear frames separados por pantalla.
+- Nombrar claramente cada frame.
+- Usar componentes reutilizables.
+- Estructurar con auto-layout.
+- Mantener capas organizadas.
+- Dejar todo editable.
+- Generar diseño fácil de modificar manualmente después.
+- Incluir un pequeño design system o mini biblioteca con colores, botones, badges y tipografías.
+
+Entregable esperado:
+Un conjunto consistente de pantallas de alta fidelidad, editables y listas para iterar en Figma, con apariencia profesional y orientadas a un sistema web de análisis geoespacial y predicción de radiación ultravioleta.
